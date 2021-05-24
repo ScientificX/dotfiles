@@ -1,0 +1,11 @@
+Host *.trycloudflare.com
+	HostName %h
+	User root
+	Port 22
+	ProxyCommand alcohol-sufficiently-brussels-warrant.trycloudflare.com access ssh --hostname %h
+ 
+
+Host glcoud
+  Hostname 34.95.196.124
+  User fascher
+  Port 22
